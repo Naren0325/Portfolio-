@@ -52,7 +52,7 @@ import React from 'react'
 export default function AboutMe() {
   const handleDownload = () => {
     const link = document.createElement('a');
-link.href = `https://bmjagan.vercel.app/assets/JAGAN_BM.pdf`; // Path to your PDF
+link.href = `https://narendran-25.vercel.app/assets/JAGAN_BM.pdf`; // Path to your PDF
 link.download = 'Narendran_P_Resume.pdf'; // Filename for the downloaded file
 link.click();
   }
