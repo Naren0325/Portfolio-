@@ -8,7 +8,7 @@ export default function Header() {
   
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `https://bmjagan.vercel.app/assets/`; // Path to your PDF
+    link.href = `https://narendran-25.vercel.app/assets/`; // Path to your PDF
     link.download = 'Narendran_P_Resume.pdf'; // Filename for the downloaded file
     link.click();
   }
